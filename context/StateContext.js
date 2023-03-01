@@ -56,7 +56,7 @@ export const StateContext = ({ children }) => {
       return prevTotalPrice - foundProduct.price * foundProduct.quantity;
     });
     setTotalQuantities((prevTotalQuantities) => {
-      return (prevTotalQuantities = foundProduct.quantity);
+      return prevTotalQuantities - foundProduct.quantity;
     });
     setCartItems(newCartItems);
   };

@@ -220,7 +220,6 @@ span.text-red {
   justify-content: space-between;
 }
 .banner-desc button {
-  border-radius: 15px;
   padding: 10px 16px;
   background-color: white;
   color: #095a01;
@@ -670,7 +669,7 @@ span.text-red {
     height: 350px;
   }
   .cart-container {
-    width: 415px;
+    width: 100%;
     padding: 4px;
   }
   .cart-heading {
