@@ -753,4 +753,8 @@ span.text-red {
   .buttons .buy-now {
     margin-top: 0;
   }
+  .product-detail-container .product-detail-image {
+    width: 90%;
+    height: 90%;
+  }
 }

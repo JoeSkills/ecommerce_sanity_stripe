@@ -29,7 +29,7 @@ export default async function handler(req, res) {
             .replace('-webp', '.webp');
           return {
             price_data: {
-              currency: 'usd',
+              currency: 'ngn',
               product_data: {
                 name: item.name,
                 images: [newImage],
