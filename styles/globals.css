@@ -665,8 +665,8 @@ span.text-red {
     flex-wrap: wrap;
   }
   .product-detail-container .product-detail-image {
-    width: 350px;
-    height: 350px;
+    width: 100%;
+    height: 100%;
   }
   .cart-container {
     width: 100%;
@@ -743,5 +743,14 @@ span.text-red {
   .btn-container {
     width: 300px;
     margin: auto;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .buttons {
+    flex-direction: column;
+  }
+  .buttons .buy-now {
+    margin-top: 0;
   }
 }
